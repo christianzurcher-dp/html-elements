@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elements</title>
+    <script
+      src="https://kit.fontawesome.com/ab403d5bec.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <form>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="user_name"
+          id="username"
+          placeholder="username"
+        />
+
+        <label for="password">Password</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="password"
+        />
+
+        <label for="age">Age</label>
+        <input id="age" type="number" />
+
+        <label>Birthdate</label>
+        <input type="date" />
+
+        <label>Send me Emails</label>
+        <input type="checkbox" />
+
+        <input id="pizza" type="radio" value="any non pineapple pizza" />
+        <label for="pizza"> pizza</label>
+      </form>
+
+      <select name="Food">
+        <option hidden disabled selected value>-- select an option --</option>
+        <option value="pizza">pizza</option>
+        <option value="pasta">pasta</option>
+        <option value="salad">salad</option>
+      </select>
+
+      <textarea cols="30" rows="10"></textarea>
+
+      <a href="home.html">home</a>
+
+      <img src="" height="300" width="300" alt="" />
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.402584150315!2d-111.6859595590501!3d40.31122196217215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9bed507857a7%3A0x81b6c4eeb16e0d08!2sDevPipeline!5e0!3m2!1sen!2sus!4v1684182414575!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <video src="videos/pizza.webm" controls></video>
+
+      <i class="fa-solid fa-dog"></i>
+    </div>
+  </body>
+</html>
